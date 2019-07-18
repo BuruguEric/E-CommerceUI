@@ -18,7 +18,7 @@
 
         @include('partials._navbar')
 
-        <div class="site-blocks-cover overlay" style="background-image: url(images/hero_2.jpg);" data-stellar-background-ratio="0.5">
+        <div class="site-blocks-cover overlay" style="background-image: url({{asset('images/hero_2.jpg')}});" data-stellar-background-ratio="0.5">
             <div class="container">
                 <div class="row align-items-center justify-content-center">
                     <div class="col-md-12" data-aos-delay="400">
@@ -27,8 +27,8 @@
                                 <h1>Shop With Us</h1>
                                 <p class="mb-5 lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam assumenda ea quo cupiditate facere deleniti fuga officia.</p>
                                 <div>
-                                    <a href="{{route('login')}}" class="btn btn-white btn-outline-white py-3 px-5 rounded-3 mb-lg-0 mb-2 d-block d-sm-inline-block">Shop Now</a>
-                                    <a href="{{route('register')}}" class="btn btn-white py-3 px-5 rounded-3 d-block d-sm-inline-block">Club Membership</a>
+                                    <a href="{{route('login')}}" title="Login" class="btn btn-white btn-outline-white py-3 px-5 rounded-3 mb-lg-0 mb-2 d-block d-sm-inline-block">Shop Now</a>
+                                    <a href="{{route('register')}}" title="Register" class="btn btn-white py-3 px-5 rounded-3 d-block d-sm-inline-block">Club Membership</a>
                                 </div>
                             </div>
                         </div>
@@ -40,7 +40,8 @@
         {{-- Products --}}
         @include('partials._products')
 
-        <div class="site-blocks-cover inner-page-cover overlay get-notification" style="background-image: url(images/hero_2.jpg); background-attachment: fixed;" >
+        {{-- Subscribe --}}
+        <div class="site-blocks-cover inner-page-cover overlay get-notification" style="background-image: url({{asset('images/hero_2.jpg')}}); background-attachment: fixed;" >
             <div class="container">
                 <div class="row align-items-center justify-content-center">
                     <form class="col-md-7" method="post">
@@ -61,13 +62,13 @@
                     <div class="col-md-6 text-center">
                         <h3 class="section-sub-title">Awesome Products</h3>
                         <h2 class="section-title mb-3">Featured Products</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nostrum natus excepturi fuga ullam accusantium vel ut eveniet aut consequatur laboriosam ipsam.</p>
+                        <p id="product">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nostrum natus excepturi fuga ullam accusantium vel ut eveniet aut consequatur laboriosam ipsam.</p>
                     </div>
                 </div>
                 <div class="bg-white py-4 mb-4">
                     <div class="row mx-4 my-4 product-item-2 align-items-start">
                         <div class="col-md-6 mb-5 mb-md-0">
-                            <img src="images/astronaut-astronomy-cosmonaut-355956.jpg" alt="Image" class="img-fluid">
+                            <img src="{{asset('images/astronaut-astronomy-cosmonaut-355956.jpg')}}" alt="Image" class="img-fluid">
                         </div>
                         <div class="col-md-5 ml-auto product-title-wrap">
                             <span class="number">01.</span>
@@ -88,7 +89,7 @@
                 <div class="bg-white py-4">
                     <div class="row mx-4 my-4 product-item-2 align-items-start">
                         <div class="col-md-6 mb-5 mb-md-0 order-1 order-md-2">
-                            <img src="images/product_1_bg.jpg" alt="Image" class="img-fluid">
+                            <img src="{{asset('images/product_1_bg.jpg')}}" alt="Image" class="img-fluid">
                         </div>
                         <div class="col-md-5 mr-auto product-title-wrap order-2 order-md-1">
                             <span class="number">02.</span>
@@ -113,7 +114,7 @@
             <div class="container">
                 <div class="row align-items-lg-center">
                     <div class="col-md-8 mb-5 mb-lg-0 position-relative">
-                        <img src="images/about_1.jpg" class="img-fluid" alt="Image">
+                        <img src="{{asset('images/exmachina.jpg')}}" class="img-fluid" alt="Image">
                         <div class="experience">
                             <span class="year">Trusted Merchant</span>
                             <span class="caption">for over 15 years</span>
@@ -148,15 +149,15 @@
                 <div class="row mb-5">
                     <div class="col-12 text-center">
                         <h3 class="section-sub-title">Team</h3>
-                        <h2 class="section-title mb-3">Leadership</h2>
+                        <h2 class="section-title mb-3">Owners</h2>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos-delay="100">
                         <div class="person text-center">
-                            <img src="images/model_2_bg.jpg" alt="Image" class="img-fluid rounded w-75 mb-3">
+                            <img src="{{asset('images/model_2_bg.jpg')}}" alt="Image" class="img-fluid rounded w-75 mb-3">
                             <h3>Eric Burugu</h3>
-                            <p class="position text-muted">Co-Founder, President</p>
+                            <p class="position text-muted">Co-Founder, CEO</p>
                             <p class="mb-4">Nisi at consequatur unde molestiae quidem provident voluptatum deleniti quo iste error eos est praesentium distinctio cupiditate tempore suscipit inventore deserunt tenetur.</p>
                             <ul class="ul-social-circle">
                             <li><a href="#"><span class="icon-facebook"></span></a></li>
@@ -168,7 +169,7 @@
                     </div>
                     <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos-delay="200">
                         <div class="person text-center">
-                            <img src="images/model_3_bg.jpg" alt="Image" class="img-fluid rounded w-75 mb-3">
+                            <img src="{{asset('images/model_3_bg.jpg')}}" alt="Image" class="img-fluid rounded w-75 mb-3">
                             <h3>Michelle Omondi</h3>
                             <p class="position text-muted">Co-Founder, COO</p>
                             <p class="mb-4">Nisi at consequatur unde molestiae quidem provident voluptatum deleniti quo iste error eos est praesentium distinctio cupiditate tempore suscipit inventore deserunt tenetur.</p>
@@ -182,7 +183,7 @@
                     </div>
                     <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos-delay="300">
                         <div class="person text-center">
-                            <img src="images/person_4.jpg" alt="Image" class="img-fluid rounded w-75 mb-3">
+                            <img src="{{asset('images/person_4.jpg')}}" alt="Image" class="img-fluid rounded w-75 mb-3">
                             <h3>Kevin Mwenda</h3>
                             <p class="position text-muted">Marketing</p>
                             <p class="mb-4">Nisi at consequatur unde molestiae quidem provident voluptatum deleniti quo iste error eos est praesentium distinctio cupiditate tempore suscipit inventore deserunt tenetur.</p>

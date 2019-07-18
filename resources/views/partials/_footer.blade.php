@@ -9,10 +9,10 @@
                     <div class="col-md-3 ">
                         <h2 class="footer-heading mb-4">Quick Links</h2>
                         <ul class="list-unstyled">
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Testimonials</a></li>
-                        <li><a href="#">Contact Us</a></li>
+                            <li><a href="#products-section" >Products</a></li>
+                            <li><a href="#about-section" >About Us</a></li>
+                            <li><a href="#special-section" >Offers</a></li>
+                            <li><a href="#contact-section" >Contact</a></li>
                         </ul>
                     </div>
                     <div class="col-md-4">

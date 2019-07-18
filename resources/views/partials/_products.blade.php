@@ -11,7 +11,7 @@
             <div class="col-lg-4 col-md-6 mb-5">
                 <div class="product-item">
                     <figure>
-                        <img src="images/model_2_bg.jpg" alt="Image" class="img-fluid">
+                        <img src="{{asset('images/model_2_bg.jpg')}}" alt="Image" class="img-fluid">
                     </figure>
                     <div class="px-4">
                         <h3><a href="#">Wild West Hoodie</a></h3>
@@ -22,7 +22,7 @@
                         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                         <div>
                             <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
-                            <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
+                            <a href="#product" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
                         </div>
                     </div>
                 </div>
@@ -30,7 +30,7 @@
             <div class="col-lg-4 col-md-6 mb-5">
                 <div class="product-item">
                     <figure>
-                        <img src="images/astronaut-astronomy-cosmonaut-355956.jpg" alt="Image" class="img-fluid">
+                        <img src="{{asset('images/astronaut-astronomy-cosmonaut-355956.jpg')}}" alt="Image" class="img-fluid">
                     </figure>
                     <div class="px-4">
                         <h3><a href="#">Wild West Hoodie</a></h3>
@@ -41,7 +41,7 @@
                         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                         <div>
                             <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
-                            <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
+                            <a href="#product" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
                         </div>
                     </div>
                 </div>
@@ -49,7 +49,7 @@
             <div class="col-lg-4 col-md-6 mb-5">
                 <div class="product-item">
                     <figure>
-                        <img src="images/model_3_bg.jpg" alt="Image" class="img-fluid">
+                        <img src="{{asset('images/model_3_bg.jpg')}}" alt="Image" class="img-fluid">
                     </figure>
                     <div class="px-4">
                         <h3><a href="#">Wild West Hoodie</a></h3>
@@ -60,7 +60,7 @@
                         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                         <div>
                             <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
-                            <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
+                            <a href="#product" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
                         </div>
                     </div>
                 </div>
@@ -68,7 +68,7 @@
             <div class="col-lg-4 col-md-6 mb-5">
                 <div class="product-item">
                     <figure>
-                        <img src="images/model_5_bg.jpg" alt="Image" class="img-fluid">
+                        <img src="{{asset('images/model_5_bg.jpg')}}" alt="Image" class="img-fluid">
                     </figure>
                     <div class="px-4">
                         <h3><a href="#">Wild West Hoodie</a></h3>
@@ -79,7 +79,7 @@
                         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                         <div>
                             <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
-                            <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
+                            <a href="#product" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
                         </div>
                     </div>
                 </div>
@@ -87,7 +87,7 @@
             <div class="col-lg-4 col-md-6 mb-5">
                 <div class="product-item">
                     <figure>
-                        <img src="images/model_4_bg.jpg" alt="Image" class="img-fluid">
+                        <img src="{{asset('images/model_4_bg.jpg')}}" alt="Image" class="img-fluid">
                     </figure>
                     <div class="px-4">
                         <h3><a href="#">Wild West Hoodie</a></h3>
@@ -98,7 +98,7 @@
                         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                         <div>
                             <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
-                            <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
+                            <a href="#product" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
                         </div>
                     </div>
                 </div>
@@ -106,7 +106,7 @@
             <div class="col-lg-4 col-md-6 mb-5">
                 <div class="product-item">
                     <figure>
-                        <img src="images/product_1_bg.jpg" alt="Image" class="img-fluid">
+                        <img src="{{asset('images/product_1_bg.jpg')}}" alt="Image" class="img-fluid">
                     </figure>
                     <div class="px-4">
                         <h3><a href="#">Wild West Hoodie</a></h3>
@@ -117,7 +117,7 @@
                         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                         <div>
                             <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
-                            <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
+                            <a href="#product" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
                         </div>
                     </div>
                 </div>

@@ -30,4 +30,10 @@
     <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/style.css">
 
+    <style>
+        body{
+            cursor: default;
+        }
+    </style>
+
 </head>

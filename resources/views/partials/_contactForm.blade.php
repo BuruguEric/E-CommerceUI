@@ -3,7 +3,7 @@
         <div class="row mb-5">
             <div class="col-12 text-center">
                 <h3 class="section-sub-title">Contact Us</h3>
-                <h2 class="section-title mb-3">Immediate feedback guaranteed</h2>
+                <h2 class="section-title mb-3"><i>Immediate feedback guaranteed</i></h2>
             </div>
         </div>
         <div class="row justify-content-center">
