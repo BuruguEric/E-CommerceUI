@@ -1,6 +1,6 @@
 <footer class="site-footer bg-white">
     <div class="container">
-        <div class="row">
+        
                 <div class="row">
                     <div class="col-md-5">
                         <h2 class="footer-heading mb-4">About Us</h2>
@@ -23,13 +23,6 @@
                         <a href="#" class="pl-3 pr-3"><i class="fab fa-linkedin" title="LinkedIn"></i></a>
                     </div>
                 </div>
-        </div>
-        <div class="row pt-5 mt-5 text-center">
-            <div class="col-md-12">
-                <div class="border-top pt-5">
-                <p>Copyright &copy; All rights reserved for Eric | This site is made with <i class="icon-heart" style="color:red; transition: .3s all ease !important;" aria-hidden="true"></i></p>
-                </div>
-            </div>
-        </div>
+        
     </div>
 </footer>
